@@ -2,7 +2,7 @@ alert("Olá mundo");
 //Uma variável guarda algum valor temporiamente
 //entrada dos dados
 var nome = "IguinhoDoJob";
-var idade = 15;
+var idade = 20;
 var senha = "1234";
 //estrutura de codinção
 if(idade > 17){
