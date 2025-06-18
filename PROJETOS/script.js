@@ -10,7 +10,8 @@ if(idade > 17){
 } else{
     alert("Vai embora daqui" + nome);
 }
-
+//registrando alteração
+//enviando alteração
 if(nome == "IguinhoDoJob" && senha == "123"){
     alert("login condedio");
 } else{
