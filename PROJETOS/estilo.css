@@ -1,0 +1,180 @@
+body {
+    /*cor de fundo*/
+    background-color:rgb(0, 46, 88);
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230415/pngtree-website-technology-line-dark-background-image_2344719.jpg);
+    /*cor da letra*/
+    color: rgb(0, 0, 0);
+    /*alinhamento de texto*/
+    text-align: center;
+    /*trocando a fonte*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+
+    
+
+ }
+
+ section {
+    /*cor de fundo*/
+    background-color: rgba(255, 255, 255, 0.432);
+    /*largura*/
+    max-width: 650px;
+    /*centralizar card*/
+    margin: auto;
+    /*arredonar bordas*/
+    border-radius: 15px;
+    /*espaçamento externo*/
+    margin-bottom: 15px;
+    /*espaçamento interno*/
+    padding: 2px;
+    /*sombra*/
+    box-shadow: 3px 3px 9px rgb(255, 255, 255); 
+    padding-bottom: 15px;
+    /*tamanho da fonte*/
+    font-size: 20px;
+  
+ }
+
+ section:hover{
+   /*cor de fundo*/
+   background-color: rgb(109, 106, 106);
+   /*tempo de transição*/
+   transition: 1s;
+   /*tamanho de fonte - aumentar*/
+   font-size: 23px;
+
+
+ }
+
+ul{
+    /*estilo de lista desativado*/
+    list-style: none;
+    /*alinhar texto a esquerda*/
+    text-align: left;
+}
+
+
+ #perfil{
+   width: 200px;
+   border-radius: 15px;
+   border: 2px solid rgb(255, 255, 255);
+ }
+ #perfil2{
+   width: 200px;
+   border-radius: 15px;
+   border: 2px solid rgb(255, 255, 255);
+
+ }
+ 
+.links1{
+   /*decoração de texto - desativada*/
+   text-decoration: none;
+   color:rgb(0, 0, 0);
+}
+
+.links2{
+   /*decoração de texto - desativada*/
+   text-decoration: none;
+   color:rgb(0, 0, 0);
+}
+
+.links3{
+   /*decoração de texto - desativada*/
+   text-decoration: none;
+   color:rgb(0, 0, 0);
+}
+
+.links4{
+   /*decoração de texto - desativada*/
+   text-decoration: none;
+   color:rgb(0, 0, 0);
+}
+
+.links5{
+   /*decoração de texto - desativada*/
+   text-decoration: none;
+   color:rgb(0, 0, 0);
+}
+
+
+.links1:hover,.links2:hover,.links3:hover,.links4:hover,.links5:hover{
+   font-weight: bold;
+   color: black;
+}
+
+.menu{
+   /*cor de fundo*/
+   background-color: rgb(255, 255, 255);
+   /*alinhamento de texto*/
+   text-align: left;
+   /*espaçamento interno*/
+   padding: 10px;
+   /*margem abaixo*/
+   margin-bottom: 15px;   
+   display: flex;
+   gap: 5px;
+   justify-content: center;
+
+}
+
+.menu ul{
+   margin: 0px;
+
+}
+
+.celular{
+   margin-top: 08px;
+}
+
+.menu ul li{
+   /* colocar em linha e lado a lado*/
+   display: inline-block;
+   /*espaçamento interno*/
+   padding: 10px;
+
+
+}
+
+.menu ul li a{
+   color: black;
+   /* desativar traço*/
+   text-decoration: none;
+
+}
+
+footer{
+   background-color: rgb(255, 255, 255);
+   color: black;
+   margin-top: 20px;
+   padding: 40px;
+   box-shadow: 2px 2px 10px white;
+
+}
+
+.celular{
+   display: none;
+}
+/*configuração de css para celular/tablet*/
+@media(max-width: 1050px){
+   .celular{
+      display: block;
+   }
+   .menu ul{
+      display: none;
+   }
+   .menu ul li{
+      width: 100%;
+   }
+   ul.mostrarMenu{
+      display: inline-block;
+      
+   }
+
+}
+
+
+
+
+ 
