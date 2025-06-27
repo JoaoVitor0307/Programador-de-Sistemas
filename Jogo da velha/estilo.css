@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+body{
+    font-family: "Jersey 15", sans-serif;
+}
+.quadrado{
+    width: 200px; /*largura do quadrado*/
+    height: 200px; /*altura do quadrado*/
+    text-align: center;
+    font-size: 150px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(246, 255, 255);
+
+}
+
+.painel{
+    background-color: rgb(224, 99, 120);
+    /* max-width: 1000px; */
+    text-align: center;
+    /* margin-left:auto;
+    margin-right: auto;  */
+    padding: 30px;
+    /* width: 1000px; */
+
+}
+
+.jogo{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+   
+}
+
+.botao{
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    
+
+}
+
+.botao:hover{
+    background-color: azure;
+    color:black;
+    transition: 1s;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1950&q=80');
+    
+    display: flex;
+    background-size: cover;
+    justify-content: center;  
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+} 
+
+@media(max-whidth: 1050px) {
+    .quadrado{
+        width: 100px;
+        height: 100px;
+        font-size: 70px;
+    }
+    
+}
