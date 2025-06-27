@@ -4,6 +4,7 @@ alert("Olá mundo");
 var nome = "IguinhoDoJob";
 var idade = 20;
 var senha = "1234";
+//Alterado no Git
 //estrutura de codinção
 if(idade > 17){
     alert("Pode votar!" + nome);
