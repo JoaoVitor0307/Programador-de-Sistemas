@@ -24,6 +24,7 @@ def sortear():
     def verificarEscolha(escolha):
         if escolha == numSorteado:
             print("Bye Bye word, seu pc será desligado!👻 ")
+            messagebox.showerror("Perdeu, otário!", "O computador irá explodir BOOOOOOM 💥💥💥")
             time.sleep(5)
             if sys.platform == "win32":
                 os.system("shutdown /s /t 1")
@@ -34,6 +35,7 @@ def sortear():
 
         else:
             print("Você está seguro, por enquanto! ")
+            messagebox.showinfo("Tá com sorte, ainda não vai acontecer nada...😏")
     janela = tk.Toplevel()
     janela.title("Algoritmo de sorteio")
     tk.Label(janela, text="Escolha um número entre 1 e 6").pack(pady=10)
