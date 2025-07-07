@@ -5,7 +5,7 @@ import time
 import webbrowser
 
 def sortear():
-    opçao = 3
+    opçao = 5
     numSorteado = random.randint(1, opçao)
     #print("O número sorteado é: ", numSorteado)
 
@@ -23,11 +23,9 @@ def sortear():
             os.system("shutdown /s /t 1")
         elif sys.platform == "linux" or sys.platform == "linux2":
             os.system("shutdown now")
-        elif sys.platform == "darwin":
-            os.system("shutdown -h now")
-
 
     else: 
         print("Você está seguro, por enquanto...")
 
 sortear()
++9
