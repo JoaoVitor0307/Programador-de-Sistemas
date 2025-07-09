@@ -48,7 +48,7 @@ def sortear():
 
         else:
             print("Você está seguro, por enquanto! ")
-            messagebox.showinfo("Você está seguro, por enquanto...")
+            messagebox.showinfo("Você está seguro")
     janela = tk.Toplevel()
     janela.title("Algoritmo de sorteio")
     tk.Label(janela, text="Escolha um número entre 1 e 6").pack(pady=10)
