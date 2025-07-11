@@ -1,0 +1,20 @@
+.navegacao{
+    background: linear-gradient(to right, rgb(54, 53, 53), rgb(149, 255, 149));
+    
+}
+
+.menu{
+    background-color: rgb(149, 255, 149) ;
+    height: 100vh;
+    list-style: none;
+}
+
+.menu-item{
+    color: black;
+    padding: 8px 0px;
+    text-decoration: none;
+    font-size: 22px;
+
+
+}
+
