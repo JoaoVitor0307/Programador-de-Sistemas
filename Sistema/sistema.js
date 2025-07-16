@@ -13,6 +13,10 @@ document.getElementById("toggleSenha").addEventListener("click", function () {
     }
 });
 
-$(document).ready( function () {
-    $('#tabela').DataTable();
-} );
+let table = new DataTable('#tabela', {
+   language: {
+        url: 'https://cdn.datatables.net/plug-ins/2.3.2/i18n/pt-BR.json',
+    },
+});
+
+
