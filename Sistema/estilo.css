@@ -23,18 +23,20 @@
 }
 
 .fundologin{
-background: linear-gradient(to left, rgba(108, 3, 134, 0.911), rgb(12, 135, 172));
-        color: rgb(73, 37, 114);
+    background: linear-gradient(to left, rgba(108, 3, 134, 0.911), rgb(12, 135, 172));
+    color: rgb(73, 37, 114);
+    display: flex;
         
 }
 
 .painel{
-     background-color: aliceblue;
+     background-color: rgba(240, 248, 255, 0.589);
      width: 350px;
      height: 350px;
      margin: auto;
      margin-top: 100px;
      border-radius: 20px; 
+     z-index: 2;
 }
 
 .cabecalho{
